@@ -26,6 +26,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="LOGIN" titleAlignment="automatic">
+                                    <backgroundConfiguration key="background" cornerRadius="11"/>
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -33,6 +34,10 @@
                                     <action selector="onLoginButton:" destination="e24-OR-FA5" eventType="touchUpInside" id="yZw-52-4JJ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="l7a-NE-U4o">
+                                <rect key="frame" x="134" y="243" width="134" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qSs-lq-JNz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -145,6 +150,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="TwitterLogoBlue" width="133.33332824707031" height="133.33332824707031"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
